@@ -1,0 +1,111 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local infiniteyield = Instance.new("TextButton")
+local c00lclan = Instance.new("TextButton")
+local prizzlife = Instance.new("TextButton")
+local simplespy = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0412371121, 0, 0.19974874, 0)
+Frame.Size = UDim2.new(0, 225, 0, 330)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 225, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Script Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 30.000
+
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = Frame
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(0.13333334, 0, 0.149428725, 0)
+infiniteyield.Size = UDim2.new(0, 164, 0, 38)
+infiniteyield.Font = Enum.Font.FredokaOne
+infiniteyield.Text = "Infinite Yield"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextSize = 20.000
+infiniteyield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+c00lclan.Name = "c00lclan"
+c00lclan.Parent = Frame
+c00lclan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c00lclan.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lclan.BorderSizePixel = 0
+c00lclan.Position = UDim2.new(0.13333334, 0, 0.339095891, 0)
+c00lclan.Size = UDim2.new(0, 164, 0, 38)
+c00lclan.Font = Enum.Font.FredokaOne
+c00lclan.Text = "c00lclan"
+c00lclan.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lclan.TextSize = 20.000
+c00lclan.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
+end)
+
+prizzlife.Name = "prizzlife"
+prizzlife.Parent = Frame
+prizzlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prizzlife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+prizzlife.BorderSizePixel = 0
+prizzlife.Position = UDim2.new(0.13333334, 0, 0.534823716, 0)
+prizzlife.Size = UDim2.new(0, 164, 0, 38)
+prizzlife.Font = Enum.Font.FredokaOne
+prizzlife.Text = "PrizzLife"
+prizzlife.TextColor3 = Color3.fromRGB(0, 0, 0)
+prizzlife.TextSize = 20.000
+prizzlife.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Prison-Life-Prizz-Admin-14511"))()
+end)
+
+simplespy.Name = "simplespy"
+simplespy.Parent = Frame
+simplespy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+simplespy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+simplespy.BorderSizePixel = 0
+simplespy.Position = UDim2.new(0.13333334, 0, 0.723894715, 0)
+simplespy.Size = UDim2.new(0, 164, 0, 38)
+simplespy.Font = Enum.Font.FredokaOne
+simplespy.Text = "SimpleSpy"
+simplespy.TextColor3 = Color3.fromRGB(0, 0, 0)
+simplespy.TextSize = 20.000
+simplespy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
+end)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-3.3908421e-08, 0, 0.83904624, 0)
+TextLabel_2.Size = UDim2.new(0, 225, 0, 49)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "by Lovro27042"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 30.000
